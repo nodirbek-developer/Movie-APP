@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+}
+.loader{
+    width: 100%;
+    height: 100vh;
+    background-color: lawngreen;
+    position: absolute;
+    z-index: 3;
+}
+.spin{
+    width: 700px;
+    height: 100px;
+}
+.MovieCard{
+    width: 22%;
+    height: 65vh;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.img{
+    width: 100%;
+    height: 75%;
+}
